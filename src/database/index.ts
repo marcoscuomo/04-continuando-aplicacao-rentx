@@ -1,5 +1,5 @@
 import { createConnection, getConnectionOptions } from 'typeorm';
-
+console.log('arquivoi databsee');
 interface IOptions {
   host: string;
 }
