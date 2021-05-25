@@ -48,7 +48,7 @@ class CategoryRepository implements ICategoryRepository {
         // const category = this.categories.find(category => category.name === name);
         // return category;
 
-        const category = await this.repository.findOne({ name });
+        const category = await this.repository.findOne(name);
         return category;
     }
 }
